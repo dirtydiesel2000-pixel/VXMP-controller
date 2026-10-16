@@ -38,7 +38,7 @@
 }
 }
 
-.touchpad::after {
+.template .touchpad::before {
   content: "VXMP";
   position: absolute;
   top: 50%;
