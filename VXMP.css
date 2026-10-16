@@ -35,21 +35,13 @@
 
 
 
+
 /* VXMP TOUCHPAD IMAGE */
-.controller.ds4 .touchpad {
+.ds4 .touchpad {
     background-image: url("https://raw.githubusercontent.com/dirtydiesel2000-pixel/VXMP-controller/main/VXMP.png") !important;
-    background-size: contain !important;
+    background-size: 100% 100% !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-}
-
-.controller.ds4 .touchpad::before {
-    content: "" !important;
-    position: absolute !important;
-    inset: 0 !important;
-    background: url("https://raw.githubusercontent.com/dirtydiesel2000-pixel/VXMP-controller/main/VXMP.png") center / contain no-repeat !important;
-    z-index: 10 !important;
-    pointer-events: none !important;
 }
 
 
