@@ -33,26 +33,12 @@
 }
   
 
-/* VXMP TOUCHPAD LOGO */
 
-/* VXMP TOUCHPAD LOGO */
-.controller.ds4 {
-    position: relative !important;
+/* VXMP TOUCHPAD IMAGE */
+.controller.ds4 .touchpad {
+    background-image: url("https://raw.githubusercontent.com/dirtydiesel2000-pixel/VXMP-controller/main/VXMP.png") !important;
+    background-size: 85% auto !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
 }
 
-.controller.ds4::after {
-    content: "VXMP" !important;
-    position: absolute !important;
-    left: 403px !important;
-    top: 197.5px !important;
-    transform: translate(-50%, -50%) !important;
-    color: #eac4ff !important;
-    font: bold 24px Arial, sans-serif !important;
-    letter-spacing: 3px !important;
-    text-shadow:
-        0 0 5px #ffffff,
-        0 0 12px #bf00ff,
-        0 0 20px #8000ff !important;
-    z-index: 999 !important;
-    pointer-events: none !important;
-}
