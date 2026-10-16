@@ -1,0 +1,33 @@
+
+/* VXMP - PURPLE NEON PS4 */
+
+.controller {
+  filter: drop-shadow(0 0 12px #8c00ff);
+}
+
+.controller .body {
+  fill: #101014;
+  background-color: #101014;
+}
+
+.controller .touchpad {
+  fill: #17101f;
+  background-color: #17101f;
+  border: 2px solid #a020ff;
+  box-shadow: 0 0 14px #9b20ff;
+}
+
+.controller .button,
+.controller .bumper,
+.controller .trigger {
+  filter: drop-shadow(0 0 5px #8b00ff);
+}
+
+.controller .pressed {
+  filter: brightness(1.5)
+          drop-shadow(0 0 12px #bf40ff);
+}
+
+.controller .stick {
+  filter: drop-shadow(0 0 7px #9220ff);
+}
