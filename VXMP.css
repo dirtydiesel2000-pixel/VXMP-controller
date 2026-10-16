@@ -45,3 +45,7 @@
 }
 
 
+/* VXMP TOUCHPAD LOGO - FINAL FIX */
+.controller.active.ds4 .touchpad {
+    background: url("https://raw.githubusercontent.com/dirtydiesel2000-pixel/VXMP-controller/main/VXMP.png") center / 100% 100% no-repeat !important;
+}
