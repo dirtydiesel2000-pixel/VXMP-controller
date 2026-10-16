@@ -34,11 +34,11 @@
   
 
 /* VXMP TOUCHPAD LOGO */
-.controller .touchpad {
+.controller.ds4 .touchpad {
     position: relative !important;
 }
 
-.controller .touchpad::after {
+.controller.ds4 .touchpad::after {
     content: "VXMP" !important;
     display: block !important;
     position: absolute !important;
