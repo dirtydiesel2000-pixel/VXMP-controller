@@ -33,11 +33,11 @@
 }
   
 /* VXMP glowing touchpad logo */
-.controller .touchpad {
+.template .touchpad {
   position: relative;
 }
 
-.controller .touchpad::after {
+.template .touchpad::after {
   content: "VXMP";
   position: absolute;
   top: 50%;
