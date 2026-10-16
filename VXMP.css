@@ -31,3 +31,24 @@
 .controller .stick {
   filter: drop-shadow(0 0 7px #9220ff);
 }
+  
+/* VXMP glowing touchpad logo */
+.controller .touchpad {
+  position: relative;
+}
+
+.controller .touchpad::after {
+  content: "VXMP";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #eac4ff;
+  font: bold 24px Arial, sans-serif;
+  letter-spacing: 3px;
+  text-shadow:
+    0 0 5px #ffffff,
+    0 0 10px #bf00ff,
+    0 0 20px #a000ff;
+  pointer-events: none;
+}
